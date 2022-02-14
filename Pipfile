@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+mysqlclient = "*"
+django-token = "*"
+pillow = "*"
+django-phone-field = "*"
+django-phonenumber-field = {extras = ["phonenumbers"], version = "*"}
+django-rest-knox = "*"
+djangorestframework-simplejwt = "*"
+djoser = "*"
+django-cors-headers = "*"
+social-auth-app-django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
